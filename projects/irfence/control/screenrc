@@ -1,0 +1,12 @@
+term screen-256color
+startup_message off
+defscrollback 100000
+vbell off
+
+bindkey -k kb stuff ^H
+
+# log turned on by passing '-L' when launching the tty window within the screen
+# session with 'screen -L /dev/ttyUSB0 115200'.
+logfile tty.out
+logfile flush 1
+

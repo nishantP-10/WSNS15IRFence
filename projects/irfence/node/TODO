@@ -1,0 +1,30 @@
+DONE ACKSEQ vs MSG SEQ
+
+DONE periodic callback API
+  * periodic ping
+  * periodic compass
+
+DONE Rx led
+
+NanoRK: bmac_rf_power: spurious check (< 31), the power level is 4 bits, and it's not linear
+
+DONE: unify link/unlink cmds and remove top cmd
+DONE: remove whoami cmd
+DONE use show_heading in head cmd
+DONE unify head and rhead cmds
+DONE periodic functions
+DONE deprecate watchdog
+DONE consolidate simple tasks
+
+move cmd usage string to declare table
+module declaration
+
+Bulk setting of config options
+Options: support on_change hooks
+Randomize TX retry delays
+
+Options: bitmask to indicate when the option is not saved in eeprom at all (use compile time default)
+
+basic_rf seed taken while radio is not in receive mode:
+random bits not valid
+
